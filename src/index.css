@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.id-box {
+  text-align: left;
+}
+
+.id-box-image {
+  border: 1px solid black;
+  display: flex;
+}
+
+.greetings-box, .random-values {
+  border: 1px solid black;
+  text-align: left;
+}
+.box-color {
+  border: 1px solid black;
+  text-align: left;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 2em;
+}
+
+h4 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
