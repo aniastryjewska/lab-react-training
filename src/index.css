@@ -41,3 +41,27 @@ h2 {
   font-size: 2em;
   font-weight: 300;
 }
+
+.CreditCardsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.CreditCard {
+  width: 300px;
+  border-radius: 8px;
+  padding: 20px 30px;
+}
+.CreditCardImage {
+  height: 25px;
+  
+}
+.number {
+  font-size: 1.7rem;
+}
+
+.CreditCard-text {
+  text-align: left;
+}

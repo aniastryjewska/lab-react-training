@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function IdCard(props) {
     return (
-    <div class="id-box-image">
+    <div className="id-box-image">
         <img src= {props.picture} alt="of-person"></img>
-<div class ="id-box">
+<div className="id-box">
     <h4>First name: {props.firstName}</h4>
     <h4>Last name: {props.lastName}</h4>
     <h4>Gender: {props.gender}</h4>
