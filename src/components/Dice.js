@@ -15,6 +15,7 @@ class Dice extends Component {
     let randomNumber=Math.floor(Math.random() * Math.floor(6))+1
     return <div>
     <h1>Dice</h1> 
+<img className="Dice-image" onClick={this.clickHandler} src= {`./img/dice${randomNumber}.png`} alt="dice" />
     {/* <img className="Dice-image" onClick={setTimeout(this.clickHandler, 1000)} src= {`./img/dice${randomNumber}.png`} alt="dice" />
     <img className="Dice-image" onClick={setTimeout(this.clickHandler, 1000)} src= {`./img/dice${randomNumber}.png`} alt="dice" /> */}
     </div>
