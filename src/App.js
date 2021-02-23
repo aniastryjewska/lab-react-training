@@ -6,8 +6,9 @@ import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
-import Rating from './components/Rating';
-
+import Dice from './components/Dice';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
  function App() {
    return (
@@ -76,6 +77,14 @@ import Rating from './components/Rating';
   bgColor="#ddbb55"
   color="white" />
   </div>
+  <h1>LikeButton</h1>
+  <LikeButton /> <LikeButton />
+  <h1>ClickablePicture</h1>
+  <ClickablePicture
+  img='/img/persons/maxence.png'
+  imgClicked='/img/persons/maxence-glasses.png'
+/>
+<Dice />
   </div>
    );
  }
