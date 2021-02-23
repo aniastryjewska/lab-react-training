@@ -69,3 +69,27 @@ h2 {
 .Dice-image {
 height:200px;
 }
+
+.driver-image {
+  height:150px;
+  border-radius: 100px;
+}
+
+.driver-card {
+  color: white;
+  background-color: rgb(60, 69, 165);
+  margin: 20px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.drivers {
+  display: flex;
+  flex-direction: column;
+}
+
+.star-rating {
+  font-size: 3rem;
+}
